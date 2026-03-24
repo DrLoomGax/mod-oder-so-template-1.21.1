@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "mododerso",
+	"version": "${version}",
+	"name": "Mod oder so",
+	"description": "Ich habe keine Ahnung was ich hier tue",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/mododerso/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"gax.net.mododerso.ModOderSo"
+		],
+		"fabric-datagen": [
+			"gax.net.mododerso.ModOderSoDataGenerator"
+		],
+		"client": [
+			"gax.net.mododerso.ModOderSoClient"
+		]
+	},
+	"mixins": [
+		"mododerso.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
