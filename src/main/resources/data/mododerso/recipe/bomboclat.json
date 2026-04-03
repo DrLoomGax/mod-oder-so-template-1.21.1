@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mododerso:enola_block"
+    }
+  ],
+  "result": {
+    "count": 8,
+    "id": "mododerso:bomboclat"
+  }
+}

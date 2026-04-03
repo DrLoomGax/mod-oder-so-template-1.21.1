@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 100,
+  "ingredient": {
+      "item": "mododerso:bomboclat"
+  },
+  "result": {
+    "count": 1,
+    "id": "mododerso:bartkamm_enola"
+  }
+}

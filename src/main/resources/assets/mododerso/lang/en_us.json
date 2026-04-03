@@ -4,5 +4,8 @@
   "item.mododerso.kilianstick": "Stick of Kilian",
   "item.mododerso.windeck": "Windeck",
 
-  "block.mododerso.enola_block": "Block of Enola"
+  "block.mododerso.enola_block": "Block of Enola",
+  "block.mododerso.greenscreen_block": "Greenscreen",
+
+  "itemgroup.mododerso.chillig_items": "Things that are quite Chillig"
 }

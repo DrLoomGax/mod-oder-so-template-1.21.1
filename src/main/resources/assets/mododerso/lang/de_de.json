@@ -1,5 +1,11 @@
 {
   "item.mododerso.bartkamm_enola": "Bartkamm Enola",
+  "item.mododerso.bomboclat": "Bomboclat",
+  "item.mododerso.kilianstick": "Kilianstock",
   "item.mododerso.windeck": "Gemeinde Windeck",
-  "item.mododerso.kilianstick": "Kilianstock"
+
+  "block.mododerso.enola_block": "Enolablock",
+  "block.mododerso.greenscreen_block": "Grüner Bildschirm",
+
+  "itemgroup.mododerso.chillig_items": "Dinge, die ziemlich Chillig sind"
 }

@@ -1,6 +1,7 @@
 package gax.net.mododerso;
 
 import gax.net.mododerso.block.ModBlocks;
+import gax.net.mododerso.item.ModItemGroups;
 import gax.net.mododerso.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -17,5 +18,6 @@ public class ModOderSo implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModItemGroups.registerModItemGroups();
 	}
 }

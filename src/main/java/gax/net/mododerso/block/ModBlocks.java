@@ -1,6 +1,7 @@
 package gax.net.mododerso.block;
 
 import gax.net.mododerso.ModOderSo;
+import gax.net.mododerso.item.ModItemGroups;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
@@ -15,7 +16,9 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
 
     public static final Block ENOLA_BLOCK = registerBlock("enola_block",
-            new Block(AbstractBlock.Settings.create().strength(4f).sounds(BlockSoundGroup.HONEY)));
+            new Block(AbstractBlock.Settings.create().requiresTool().strength(4f).sounds(BlockSoundGroup.HONEY)));
+    public static final Block GREENSCREEN_BLOCK = registerBlock("greenscreen_block",
+            new Block(AbstractBlock.Settings.create().strength(10f).luminance(state -> 15).sounds(BlockSoundGroup.GRAVEL)));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
